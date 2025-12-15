@@ -5,234 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - BillEZy</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
-            color: #2D3142;
-            background: linear-gradient(135deg, #6C63FF 0%, #5A52D5 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 900px;
+            max-width: 800px;
             margin: 0 auto;
-            background: white;
-            border-radius: 15px;
-            padding: 40px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-        }
-        
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-            padding-bottom: 20px;
-            border-bottom: 3px solid #6C63FF;
-        }
-        
-        h1 {
-            color: #6C63FF;
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        
-        .updated {
-            color: #666;
-            font-style: italic;
-        }
-        
-        h2 {
-            color: #6C63FF;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            font-size: 1.8em;
-        }
-        
-        h3 {
-            color: #5A52D5;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-        
-        p, li {
-            margin-bottom: 10px;
-            text-align: justify;
-        }
-        
-        ul {
-            margin-left: 20px;
-            margin-bottom: 15px;
-        }
-        
-        .contact {
-            background: #f8f9fe;
             padding: 20px;
-            border-radius: 10px;
-            margin-top: 30px;
+            color: #333;
         }
-        
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 2px solid #eee;
-            color: #666;
-        }
-        
-        a {
-            color: #6C63FF;
-            text-decoration: none;
-        }
-        
-        a:hover {
-            text-decoration: underline;
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                padding: 20px;
-            }
-            
-            h1 {
-                font-size: 2em;
-            }
-            
-            h2 {
-                font-size: 1.5em;
-            }
-        }
+        h1 { color: #6C63FF; }
+        h2 { color: #6C63FF; margin-top: 20px; }
+        p { margin: 10px 0; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Privacy Policy</h1>
-            <p class="updated">Last Updated: December 10, 2025</p>
-        </header>
+    <h1>Privacy Policy</h1>
+    <p><strong>Last Updated: December 16, 2025</strong></p>
 
-        <section>
-            <h2>Introduction</h2>
-            <p>Welcome to BillEZy ("we," "our," or "us"). We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you use our mobile application.</p>
-        </section>
+    <h2>Information We Collect</h2>
+    <p>When you sign in with Google, we collect your email address, name, and profile picture. We also store your subscription data, delivery records, and generated bills.</p>
 
-        <section>
-            <h2>Information We Collect</h2>
-            
-            <h3>Information You Provide</h3>
-            <ul>
-                <li><strong>Google Account Information</strong>: When you sign in with Google, we collect your email address, name, and profile picture.</li>
-                <li><strong>Subscription Data</strong>: Information about your delivery subscriptions including name, type, quantity, rate, and billing cycle.</li>
-                <li><strong>Delivery Records</strong>: Daily delivery status, quantities, and optional remarks you enter.</li>
-                <li><strong>Generated Bills</strong>: Billing information based on your subscription and delivery data.</li>
-            </ul>
+    <h2>How We Use Your Information</h2>
+    <p>We use your information to authenticate you, store and sync your data across devices, and generate bills based on your delivery records.</p>
 
-            <h3>Automatically Collected Information</h3>
-            <ul>
-                <li><strong>Device Information</strong>: We may collect device type, operating system, and app version for debugging purposes.</li>
-                <li><strong>Usage Data</strong>: Information about how you interact with the app to improve user experience.</li>
-            </ul>
-        </section>
+    <h2>Data Storage</h2>
+    <p>All data is securely stored in Firebase Cloud Firestore and encrypted in transit. Your data is isolated from other users.</p>
 
-        <section>
-            <h2>How We Use Your Information</h2>
-            <p>We use your information to:</p>
-            <ul>
-                <li>Authenticate and identify you within the app</li>
-                <li>Store and sync your subscription and delivery data across devices</li>
-                <li>Generate accurate bills based on your delivery records</li>
-                <li>Provide analytics on your subscriptions</li>
-                <li>Improve app functionality and user experience</li>
-            </ul>
-        </section>
+    <h2>Data Sharing</h2>
+    <p>We do not sell your personal information. We do not share your data with advertisers. Your data may only be shared when you explicitly choose to share a bill via the app's share feature.</p>
 
-        <section>
-            <h2>Data Storage and Security</h2>
-            <ul>
-                <li>All your data is securely stored in Firebase Cloud Firestore</li>
-                <li>Data is encrypted in transit using industry-standard SSL/TLS</li>
-                <li>We implement appropriate security measures to protect against unauthorized access</li>
-                <li>Your data is associated with your Google account and isolated from other users</li>
-            </ul>
-        </section>
+    <h2>Your Rights</h2>
+    <p>You have the right to access, correct, or delete your data at any time.</p>
 
-        <section>
-            <h2>Data Sharing</h2>
-            <p><strong>We do NOT:</strong></p>
-            <ul>
-                <li>Sell your personal information to third parties</li>
-                <li>Share your data with advertisers</li>
-                <li>Use your data for marketing purposes</li>
-            </ul>
-            
-            <p><strong>We MAY share your information only:</strong></p>
-            <ul>
-                <li>When you explicitly choose to share a bill via the app's share feature</li>
-                <li>If required by law or to protect our legal rights</li>
-                <li>With service providers (Firebase/Google) who help us operate the app</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Your Rights</h2>
-            <p>You have the right to:</p>
-            <ul>
-                <li>Access your personal data</li>
-                <li>Correct inaccurate data</li>
-                <li>Delete your account and associated data</li>
-                <li>Export your data</li>
-                <li>Withdraw consent for data processing</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Third-Party Services</h2>
-            <p>BillEZy uses the following third-party services:</p>
-            <ul>
-                <li><strong>Firebase Authentication</strong>: For secure Google sign-in</li>
-                <li><strong>Firebase Cloud Firestore</strong>: For data storage and synchronization</li>
-                <li><strong>Google Sign-In</strong>: For authentication</li>
-            </ul>
-            <p>These services have their own privacy policies governing the use of your information.</p>
-        </section>
-
-        <section>
-            <h2>Children's Privacy</h2>
-            <p>BillEZy is not intended for children under 13. We do not knowingly collect data from children under 13. If you believe we have collected such data, please contact us immediately.</p>
-        </section>
-
-        <section>
-            <h2>Data Retention</h2>
-            <p>We retain your data as long as your account is active. When you delete your account, your data will be permanently deleted from our servers within 30 days.</p>
-        </section>
-
-        <section>
-            <h2>Changes to This Policy</h2>
-            <p>We may update this privacy policy from time to time. We will notify you of any significant changes by updating the "Last Updated" date and, where appropriate, through the app.</p>
-        </section>
-
-        <div class="contact">
-            <h2>Contact Us</h2>
-            <p>If you have questions about this privacy policy or your data, contact us at:</p>
-            <ul>
-                <li>Email: <a href="mailto:support@billezy.app">support@billezy.app</a></li>
-                <li>GitHub: <a href="https://github.com/shashiverse/BillEZy" target="_blank">https://github.com/shashiverse/BillEZy</a></li>
-            </ul>
-        </div>
-
-        <section>
-            <h2>Consent</h2>
-            <p>By using BillEZy, you consent to this privacy policy and agree to its terms.</p>
-        </section>
-
-        <div class="footer">
-            <p><strong>BillEZy - Billing made EaZy</strong></p>
-        </div>
-    </div>
+    <h2>Contact</h2>
+    <p>For questions about this privacy policy, contact us at: shashiverse@gmail.com</p>
 </body>
 </html>
